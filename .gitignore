@@ -1,0 +1,46 @@
+# === Build Artifacts ===
+target/
+out/
+build/
+
+# === Allure Reporting ===
+.allure/
+allure-results/
+allure-report/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === Eclipse ===
+.settings/
+.classpath
+.project
+.factorypath
+
+# === Visual Studio Code ===
+.vscode/
+
+# === Maven Wrapper ===
+.mvn/
+mvnw
+mvnw.cmd
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs and Temp ===
+*.log
+*.tmp
+*.temp
+
+# === Project specific ===
+*.jar
+!internal-0.0.1-SNAPSHOT.jar
+# (Раскомментируйте строку выше, если JAR-файл приложения ДОЛЖЕН быть в гите,
+# но по правилам хорошего тона бинарники в git не кладут)
